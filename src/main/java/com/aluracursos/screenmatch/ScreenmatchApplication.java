@@ -3,6 +3,7 @@ package com.aluracursos.screenmatch;
 import com.aluracursos.screenmatch.DTOs.EpisodioOmdb;
 import com.aluracursos.screenmatch.DTOs.SerieOmdb;
 import com.aluracursos.screenmatch.DTOs.TemporadasOmdb;
+import com.aluracursos.screenmatch.principal.EjemploStreams;
 import com.aluracursos.screenmatch.principal.LanzarAplicacion;
 import com.aluracursos.screenmatch.principal.Principal;
 import com.aluracursos.screenmatch.service.ConsumoAPI;
@@ -73,7 +74,8 @@ public class ScreenmatchApplication implements CommandLineRunner {
         LanzarAplicacion lanzarAPlicacion = new LanzarAplicacion();
         lanzarAPlicacion.iniciarMenu();
 
-
+		//EjemploStreams ejemploStreams = new EjemploStreams();
+		//ejemploStreams.muestraEjemplo();
 
 
 	}
